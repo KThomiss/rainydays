@@ -1,3 +1,8 @@
+h1 {
+  color: #024059;
+  text-decoration: none;
+}
+
 nav li {
   display: inline-block;
 }
