@@ -17,6 +17,9 @@ main {
   background-image: url("../images/homepage.jpg");
   width: 1367x;
   height: 478px;
+}
+
+main {
   background-position-x: 277px;
   background-position-y: 116px;
   background-size: cover;
