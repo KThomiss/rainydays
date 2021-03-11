@@ -30,6 +30,9 @@ body {
 
 nav li {
   display: inline-block;
+}
+
+nav li {
   text-align: center;
 }
 
