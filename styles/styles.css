@@ -19,9 +19,6 @@ main {
   height: 478px;
   background-position-x: 277px;
   background-position-y: 116px;
-}
-
-.homepagephoto {
   background-size: cover;
   background: no-repeat;
 }
