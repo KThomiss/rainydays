@@ -3,6 +3,11 @@ h1 a {
   text-decoration: none;
 }
 
+header {
+  background-image: url("../images/Logo.png");
+  background: no-repeat;
+}
+
 body {
   border-color: #f2d0915c;
   width: 1920px;
