@@ -3,6 +3,10 @@ h1 a {
   text-decoration: none;
 }
 
+.logo {
+  padding: 0px;
+}
+
 main {
   background-image: url("../images/homepage.jpg");
   background-size: cover;
