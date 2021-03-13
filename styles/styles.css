@@ -6,7 +6,7 @@ h1 a {
 }
 
 .logo {
-  position: fixed;
+  position: absolute;
   top: 0%;
   left: 0%;
   margin-left: 10px;
