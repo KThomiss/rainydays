@@ -26,12 +26,12 @@ body {
   height: 1080px;
 }
 
-nav li {
+.nav-menu {
   display: inline-block;
   text-align: center;
 }
 
-nav a {
+.nav-menu {
   background-color: #d9a74a;
   text-decoration: none;
   color: #024059;
