@@ -26,9 +26,12 @@ body {
   height: 1080px;
 }
 
+ul li {
+  text-align: center;
+}
+
 nav li {
   display: inline-block;
-  text-align: center;
 }
 
 nav a {
