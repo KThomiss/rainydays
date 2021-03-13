@@ -29,7 +29,8 @@ nav li {
 
 nav a {
   text-align: center;
-  background-color: black;
+  background-color: #d9a74a;
+  text-decoration: none;
 }
 
 nav a {
