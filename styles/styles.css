@@ -28,6 +28,8 @@ body {
 
 ul {
   text-align: center;
+  border-width: 150px;
+  height: 40px;
 }
 
 nav li {
