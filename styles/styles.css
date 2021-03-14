@@ -13,14 +13,18 @@ h1 a {
 }
 
 .slogan {
+  color: #024059;
   margin-top: 30px;
   margin-left: 85px;
 }
 
+.slogan, h1 {
+  
+}
+
 ul {
   text-align: center;
-  border-width: 150px;
-  height: 40px;
+  height: 22px;
 }
 
 nav li {
@@ -28,15 +32,16 @@ nav li {
 }
 
 nav a {
-  display: inline;
+  display: inline-block;
   background-color: #d9a74a;
   text-decoration: none;
   color: #024059;
   padding: 10px;
-  border-width: 150px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  max-width: 150px;
+  width: 150px;
+
+}
 
 main {
   background-image: url("../images/homepage.jpg");
@@ -46,7 +51,6 @@ main {
 }
 
 .homepage-photo {
-  border-width: ;
 }
 
 h2 {
@@ -55,6 +59,10 @@ h2 {
 }
 
 .bestsellers {
+  display: block;
+}
+
+.bestsellers-photos {
   color: #024059;
   width: 150px;
   height: 200px;
