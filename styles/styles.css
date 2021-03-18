@@ -1,5 +1,26 @@
+@font-face {
+  font-family: "Russo One", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Russo+One&display=swap");
+}
+
+h1,
+h2 {
+  font-family: "Russo One", "open sans", "sans-serif";
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+h3,
+p,
+ul {
+  font-family: "Open Sans", "sans-serif";
+}
+
 html {
-  background-color: #F1D5A3;
+  background-color: #f1d5a3;
   padding: 1px;
 }
 
@@ -15,6 +36,8 @@ html {
 }
 
 h1 a {
+  font-weight: bold;
+  font-size: 40px;
   color: #024059;
   text-decoration: none;
   margin-top: 20%;
@@ -34,7 +57,8 @@ h1 a {
 
 .page-layers {
   display: block;
-  background-color: #F1D5A3;
+  text-align: center;
+  background-color: #f1d5a3;
   width: 100%;
 }
 
@@ -50,7 +74,7 @@ nav li {
 nav a {
   display: inline-block;
   background-color: #024059;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   padding: 10px;
   border-top-left-radius: 20px;
@@ -58,10 +82,14 @@ nav a {
   width: 150px;
 }
 
+.page-layers a:hover {
+  background-color: #7FA644;
+}
+
 /* Home Page - Main - Section2 */
 
 main {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -74,6 +102,8 @@ main {
   display: block;
   margin: 0 auto;
   border: 10px solid #024059;
+  width: 100%;
+  height: auto;
 }
 
 /* Home Page - Main - Section3 */
@@ -84,6 +114,7 @@ main {
 }
 
 h2 {
+  font-size: 37px;
   color: #024059;
   text-align: center;
 }
@@ -105,5 +136,20 @@ footer {
   justify-content: space-evenly;
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
-}
+/* Media Queries */
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .homepage-photo {
+    width: 350px;
+    height: 175px;
+  }
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .page-layers {
+    width: 100%;
+  }
+
+  nav a {
+    display: inline;
+  }
+
