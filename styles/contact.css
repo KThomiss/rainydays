@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Russo One", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Russo+One&display=swap");
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Russo One", "open sans", "sans-serif";
+  color: #024059;
+}
+
+p,
+ul {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 100%;
+}
+
+body {
+  background-color: #f1d5a3;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.logo {
+  float: left;
+  padding: 5px;
+  min-width: 4%;
+  min-height: 4%;
+}
+
+h1 a {
+  font-weight: bold;
+  font-size: 40px;
+  color: #024059;
+  text-decoration: none;
+}
+
+.slogan {
+  color: #024059;
+  bottom: 0;
+  padding: 10px;
+}
+
+/* contact page */
+
+main {
+  display: flex;
+  flex: 1;
+  background-color: #ffffff;
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+.right-side {
+  display: flex;
+  float: right;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  border-color: #b4d9d5;
+}
