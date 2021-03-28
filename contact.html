@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="description" content="Contact information for Rainy Days">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Russo+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/4094dd05a1.js" crossorigin="anonymous"></script>
         <link href="styles/contact.css" rel="stylesheet">
     </head>
@@ -24,14 +24,14 @@
             <section class="left-side">
                 <div>
                     <h2>Contact</h2>
-                    <p>Rainy Days</p>
+                    <p class="RainyDays"><strong>Rainy Days</strong></p>
                 </div>
-                <div>
-                    <p>About your order:</p>
+                <div class="contact-info">
+                    <p><strong>About your order:</strong></p>
                     <p>If there is any questions do not hesitate to Contact Us.</p>
-                    <p>We are open from: Monday-Friday 10.00 - 18.00 GMT</p>
-                    <p>Call: +47 xx xx xx xx</p>
-                    <p>Email: RainyDays@xxxxx.com</p>
+                    <p><strong>We are open from:</strong> Monday-Friday 10.00 - 18.00 GMT</p>
+                    <p><strong>Call:</strong> +47 xx xx xx xx</p>
+                    <p><strong>Email:</strong> RainyDays@xxxxx.com</p>
                 </div>
                 <div>
                     <p>To Contact us by email, choose a category from the drop-down menu below.</p>
@@ -39,19 +39,29 @@
                 </div>
             </section>
             <section class="right-side">
-                <h2>Create an account</h2>
-                <form class="input">
-                    <input type="text" name="Firstname" placeholder="Firstname">
-                    <input type="text" name="Lastname*" placeholder="Lastname">
-                    <input type="text" name="email*" placeholder="Email">
-                    <input type="text" name="New Password*" placeholder="New password">
-                    <input type="text" name="Confirm Password*" placeholder="Confirm passsword">
-                    <button class="button">Create Account</button>
-                </form>
-                <h3>Sign In</h3>
-                <p>Already have an account?</p>
-                <a href="#"><p>sign in here</p></a>
+                <div>
+                    <h2>Create an account</h2>
+                    <form class="input">
+                        <label for="Firstname">Enter your first name:</label>
+                        <input type="text" name="Firstname" value="Firstname">
+                        <label for="Lastname">Enter your last name:</label>
+                        <input type="text" name="Lastname" value="Lastname">
+                        <label for="email">Enter your email adress:</label>
+                        <input type="text" name="email" value="Email">
+                        <label for="new password">Enter your password:</label>
+                        <input type="text" name="New Password" value="New password">
+                        <label for="confirm password">Confirm your password:</label>
+                        <input type="text" name="Confirm Password" value="Confirm passsword">
+                        <button class="button">Create Account</button>
+                    </form>
+                </div>
+                <div class="sign-in">
+                    <p>Already have an account?</p>
+                    <a href="#"><p>sign in here</p></a>
+                </div>
             </section>
         </main>
+        <footer>
+        </footer>
     </body>
 </html>
