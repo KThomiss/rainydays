@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Russo One", sans-serif, "montserrat";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap");
+}
+
+h1,
+h2 {
+  font-family: "Russo One", "open sans", "sans-serif";
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+h3,
+p,
+ul {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 100%;
+}
+
+body {
+  background-color: #f1d5a3;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Home Page - Header - logo */
+
+.logo-name {
+  margin-left: 0;
+}
+
+.logo {
+  float: left;
+  padding: 5px;
+  min-width: 4%;
+  min-height: 4%;
+}
+
+h1 a {
+  font-weight: bold;
+  font-size: 40px;
+  color: #024059;
+  text-decoration: none;
+}
+
+.slogan {
+  color: #024059;
+  padding: 10px;
+}
+
+/* Home Page - Header - Search bar */
+
+.search-bar {
+  margin: 0 auto;
+  display: block;
+  border: hidden;
+  padding: 5px;
+  text-align: center;
+  width: 20%;
+}
+
+input[type="text"] {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Home Page - Header - Topright icons */
+
+.icons {
+  text-decoration: none;
+  float: right;
+  color: inherit;
+}
+
+a {
+  color: #024059;
+}
+
+.right-side {
+  float: right;
+}
