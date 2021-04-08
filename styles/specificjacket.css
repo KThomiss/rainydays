@@ -8,6 +8,11 @@ h2 {
   font-family: "Russo One", "open sans", "sans-serif";
 }
 
+.cta-button,
+.button {
+  font-family: "montserrat", "open sans", "sans-serif";
+}
+
 h3 {
   font-weight: bolder;
 }
@@ -59,6 +64,7 @@ h1 a {
   padding: 5px;
   text-align: center;
   width: 20%;
+  margin-bottom: 10px;
 }
 
 input[type="text"] {
@@ -78,6 +84,80 @@ a {
   color: #024059;
 }
 
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  display: block;
+  border: 2px solid #7fa644;
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
 .right-side {
-  float: right;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: block;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #024059;
+  border: 2px solid #7fa644;
+  padding: 2px;
+  margin: 0 auto;
+  min-width: 50%;
+  max-height: 50px;
+  margin-top: 50px;
+}
+
+.cta-button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #7fa644;
+  border: 2px solid #024059;
+  padding: 2px;
+  max-width: 50%;
+  max-height: 50px;
+}
+
+.bottom-right {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 900px) {
+  main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .left-side {
+    grid-column: 1;
+    justify-self: center;
+  }
+
+  .right-side {
+    margin: 0 auto;
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+  }
+
+  .bottom-right {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .cta-button {
+    width: 50%;
+  }
 }
