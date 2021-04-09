@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "Russo One", sans-serif, "montserrat";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap");
+}
+
+h1,
+h2 {
+  font-family: "Russo One", "open sans", "sans-serif";
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+h3,
+p,
+ul {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 100%;
+}
+
+body {
+  background-color: #f1d5a3;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Home Page - Header - logo */
+
+.logo-name {
+  margin-left: 0;
+}
+
+.logo {
+  float: left;
+  padding: 5px;
+  min-width: 4%;
+  min-height: 4%;
+}
+
+h1 a,
+h2,
+h3 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #024059;
+  text-decoration: none;
+}
+
+.slogan {
+  color: #024059;
+  padding: 10px;
+}
+
+.icons {
+  text-decoration: none;
+  float: right;
+  color: inherit;
+}
+
+a {
+  color: #024059;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+input[type="text"] {
+  margin: 10px;
+  padding: 5px;
+  max-height: 20px;
+  border: 2px solid #7fa644;
+}
+
+input[type="tel"] {
+  margin: 10px;
+  padding: 5px;
+  max-height: 20px;
+  border: 2px solid #7fa644;
+}
+
+input[type="number"] {
+  margin: 10px;
+  padding: 5px;
+  max-height: 20px;
+  border: 2px solid #7fa644;
+}
+
+.picture {
+  border: 2px solid #7fa644;
+  height: auto;
+  max-width: 20rem;
+  margin-right: 10px;
+}
+
+.cta-buttons {
+  display: grid;
+  grid-column: 2;
+  width: 100%;
+}
+
+.cta-button1 {
+  text-decoration: none;
+  background-color: #024059;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+  min-height: 40px;
+  max-width: 50%;
+  line-height: 40px;
+}
+
+.cta-button2 {
+  text-decoration: none;
+  background-color: #7fa644;
+  color: #fff;
+  text-align: center;
+  min-height: 40px;
+  max-width: 50%;
+  line-height: 40px;
+}
+
+@media (min-width: 900px) {
+  main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .right-side {
+    justify-self: end;
+  }
+}

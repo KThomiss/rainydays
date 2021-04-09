@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Russo One", sans-serif, "montserrat";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap");
+}
+
+h1,
+h2 {
+  font-family: "Russo One", "open sans", "sans-serif";
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+h3,
+p,
+ul {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 100%;
+}
+
+body {
+  background-color: #f1d5a3;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Home Page - Header - logo */
+
+.logo-name {
+  margin-left: 0;
+}
+
+.logo {
+  float: left;
+  padding: 5px;
+  min-width: 4%;
+  min-height: 4%;
+}
+
+h1 a,
+h2,
+h3 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #024059;
+  text-decoration: none;
+}
+
+.slogan {
+  color: #024059;
+  padding: 10px;
+}
+
+.icons {
+  text-decoration: none;
+  float: right;
+  color: inherit;
+}
+
+a {
+  color: #024059;
+}
+
+.order {
+  border: 3px solid #024059;
+}
+
+.pictures {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  border: 2px solid #7fa644;
+  min-height: auto;
+  max-width: 60px;
+}
+
+.price {
+  float: right;
+}

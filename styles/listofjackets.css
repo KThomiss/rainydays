@@ -156,9 +156,12 @@ main {
 }
 
 @media (min-width: 350px) and (max-width: 500px) {
-  .icons,
-  .search-bar {
+  .icons {
     float: right;
+  }
+
+  .search-bar {
+    display: none;
   }
 
   h1,
