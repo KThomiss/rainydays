@@ -98,7 +98,7 @@ main {
 
 .picture {
   display: block;
-  border: 2px solid #7fa644;
+  border: 5px solid #7fa644;
   max-width: 100%;
   height: auto;
   margin: 10px;
