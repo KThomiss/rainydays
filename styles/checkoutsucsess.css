@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
   font-family: "Russo One", sans-serif, "montserrat";
   src: url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap");
@@ -25,7 +27,7 @@ body {
   margin-right: 5%;
 }
 
-/* Home Page - Header - logo */
+/* Header */
 
 .logo-name {
   margin-left: 0;
@@ -62,13 +64,16 @@ a {
   color: #024059;
 }
 
+/* Main */
+
 .order {
+  background-color: #fff;
   border: 3px solid #024059;
+  padding: 10px 10px 10px;
+  max-width: 50%;
 }
 
 .pictures {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
   border: 2px solid #7fa644;
   min-height: auto;
   max-width: 60px;

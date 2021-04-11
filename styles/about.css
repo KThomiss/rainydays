@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
   font-family: "Russo One", sans-serif, "montserrat";
   src: url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap");
@@ -19,29 +21,45 @@ ul {
   font-size: 100%;
 }
 
+/* General Styling */
+
 body {
-  background-color: #f1d5a3;
+  background-color: #fff;
   margin-left: 5%;
   margin-right: 5%;
-  min-height: 100%;
+}
+
+header {
+  display: flex;
 }
 
 h1 a {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 100px;
   color: #024059;
   text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.saying {
+  font-weight: bold;
+  color: #024059;
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 .slogan {
   color: #024059;
-  padding: 10px;
 }
 
-main {
-  background-color: #fff;
-  background: url("../images/art-design.png");
+body {
+  background-image: url("../images/art-design.png");
   background-size: cover;
-  background: no-repeat;
-  min-height: 100%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 300px) {
+  body {
+    background-image: none;
+  }
 }

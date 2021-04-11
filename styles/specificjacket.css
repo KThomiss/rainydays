@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
   font-family: "Russo One", sans-serif, "montserrat";
   src: url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap");
@@ -24,13 +26,15 @@ ul {
   font-size: 100%;
 }
 
+/* General Styling */
+
 body {
   background-color: #f1d5a3;
   margin-left: 5%;
   margin-right: 5%;
 }
 
-/* Home Page - Header - logo */
+/* Header - logo */
 
 .logo-name {
   margin-left: 0;
@@ -55,7 +59,7 @@ h1 a {
   padding: 10px;
 }
 
-/* Home Page - Header - Search bar */
+/* Header - Search bar */
 
 .search-bar {
   margin: 0 auto;
@@ -72,7 +76,7 @@ input[type="text"] {
   text-decoration: none;
 }
 
-/* Home Page - Header - Topright icons */
+/* Header - icons */
 
 .icons {
   text-decoration: none;
@@ -83,6 +87,8 @@ input[type="text"] {
 a {
   color: #024059;
 }
+
+/* Main */
 
 main {
   background-color: #ffffff;
@@ -104,20 +110,21 @@ main {
 
 .button {
   display: block;
+  align-self: flex-end;
   color: #ffffff;
   font-size: 16px;
   background-color: #024059;
-  border: 2px solid #7fa644;
+  border: none;
   padding: 2px;
   margin: 0 auto;
   min-width: 50%;
-  max-height: 50px;
-  margin-top: 50px;
+  min-height: 50px;
 }
 
 .cta-button {
   display: block;
   text-align: center;
+  line-height: 50px;
   margin: 0 auto;
   margin-top: 10px;
   color: #ffffff;
