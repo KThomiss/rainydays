@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  background-color: #f1d5a3;
+}
+
+/* Header - logo */
+
+header {
+  min-height: 20vh;
+}
+
+.logo-img {
+  float: left;
+  padding: 5px;
+}
+
+.logo {
+  display: flex;
+  padding: 20px;
+}
+
+.slogan {
+  color: #024059;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+h1 a {
+  color: #024059;
+  text-decoration: none;
+}
+
+main {
+  background-color: #ffffff;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+/* Primary navigation with icons */
+
+.primary-nav {
+  color: white;
+  background-color: #024059;
+}
+
+.primary-nav ul {
+  margin: 0;
+  display: flex;
+  justify-content: end;
+}
+
+.primary-nav li {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.primary-nav li:hover {
+  background-color: #d9a74a;
+  color: black;
+}
+
+.primary-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Page layers */
+
+.page-layers ul {
+  text-align: center;
+  max-height: 16px;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.page-layers li {
+  display: inline-block;
+}
+
+.page-layers a {
+  display: block;
+  min-width: 12vh;
+  background-color: #024059;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.page-layers a:hover {
+  background-color: #d9a74a;
+  color: black;
+}
+
+/* Home Page - Footer - Info */
+
+footer {
+  color: #024059;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Russo One", sans-serif, "montserrat";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap");
+}
+
+h1,
+h2 {
+  font-family: "Russo One", "open sans", "sans-serif";
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+h3,
+p,
+ul {
+  font-family: "Open Sans", "sans-serif";
+}
