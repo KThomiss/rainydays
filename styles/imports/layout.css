@@ -3,11 +3,13 @@ body {
   background-color: #f1d5a3;
 }
 
-/* Header - logo */
-
-header {
-  min-height: 20vh;
+h1,
+h2,
+h3 {
+  color: #024059;
 }
+
+/* Header - logo */
 
 .logo-img {
   float: left;
@@ -38,14 +40,14 @@ main {
   background-color: #ffffff;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 100px;
+  /*box-shadow: 6px 6px rgba(0, 0, 0, 0.5);*/
 }
 
 /* Primary navigation with icons */
 
 .primary-nav {
   color: white;
-  background-color: #024059;
+  background-color: rgba(2, 64, 89, 0.8);
 }
 
 .primary-nav ul {
@@ -72,11 +74,14 @@ main {
 
 /* Page layers */
 
+.page-layers {
+  background-color: #f1d5a3;
+}
+
 .page-layers ul {
   text-align: center;
   max-height: 16px;
   padding: 0;
-  background-color: #ffffff;
 }
 
 .page-layers li {
@@ -94,10 +99,51 @@ main {
   border-top-right-radius: 10px;
 }
 
+#current {
+  background-color: #d9a74a;
+  color: black;
+}
+
 .page-layers a:hover {
   background-color: #d9a74a;
   color: black;
 }
+
+/* buttons and CTA */
+
+.buttons {
+  color: #ffffff;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 100%;
+  min-height: 45px;
+  background-color: #024059;
+  box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
+  border: none;
+}
+
+.spacing {
+  margin-bottom: 20px;
+}
+
+.buttons:hover {
+  background-color: #d9a74a;
+  color: black;
+  box-shadow: 6px 6px rgba(217, 167, 74, 0.5);
+}
+
+/*.specific-button {
+  display: block;
+  align-self: flex-end;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #024059;
+  border: none;
+  padding: 2px;
+  margin: 0 auto;
+  min-width: 50%;
+  min-height: 50px;
+}*/
 
 /* Home Page - Footer - Info */
 

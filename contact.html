@@ -18,20 +18,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/ff4dde0530.js" crossorigin="anonymous"></script>
-        <link href="styles/contact.css" rel="stylesheet">
+        <link href="styles/styles.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <section class="logo-name">
-                <div class="slogan">
-                    <a href="index.html">
-                        <img src="images/logo.png" alt="logo of projectrainydays.com" class="logo">
-                    </a>
+            <nav class="primary-nav">
+                <ul>
+                    <li><a href="checkout.html"><i class="fas fa-shopping-cart fa-2x"></i>Checkout</a></li>
+                    <li><a href="user.html"><i class="fas fa-user fa-2x"></i>Login</a></li>
+                    <li><a href="contact.html"><i class="fas fa-phone fa-2x"></i>Contact</a></li>
+                    <li><a href="about.html"><i class="fas fa-users fa-2x"></i>About</a></li>
+                </ul>   
+            </nav>
+            <div class="logo">
+                <div>
+                    <a href="index.html"><img src="images/logo.png" alt="logo of projectrainydays.com" class="logo-img"></a>
                     <h1><a href="index.html">Rainy Days</a></h1>
-                    <p>Pushing the comfort zone</p>
+                    <p class ="slogan">Pushing the comfort zone</p>
                 </div>
+            </div>
         </header>
-        <main>
+        <main class="contact-main">
             <section class="left-side">
                 <div>
                     <h2>Contact</h2>
@@ -52,17 +59,17 @@
                 <div>
                     <h2>Create an account</h2>
                     <form class="input">
-                        <label for="Firstname">Enter your first name:</label>
-                        <input type="text" name="Firstname" value="Firstname">
-                        <label for="Lastname">Enter your last name:</label>
-                        <input type="text" name="Lastname" value="Lastname">
-                        <label for="email">Enter your email adress:</label>
-                        <input type="text" name="email" value="Email">
-                        <label for="new password">Enter your password:</label>
-                        <input type="text" name="New Password" value="New password">
+                        <label for="Firstname">First name:</label>
+                        <input type="text" name="Firstname">
+                        <label for="Lastname">Last name:</label>
+                        <input type="text" name="Lastname">
+                        <label for="email">Email adress:</label>
+                        <input type="text" name="email">
+                        <label for="new password">Password:</label>
+                        <input type="text" name="New Password">
                         <label for="confirm password">Confirm your password:</label>
-                        <input type="text" name="Confirm Password" value="Confirm passsword">
-                        <button class="button">Create Account</button>
+                        <input type="text" name="Confirm Password">
+                        <button class="buttons">Create Account</button>
                     </form>
                 </div>
                 <div class="sign-in">

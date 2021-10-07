@@ -4,7 +4,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Russo One", "open sans", "sans-serif";
 }
 
@@ -16,4 +17,13 @@ h3,
 p,
 ul {
   font-family: "Open Sans", "sans-serif";
+}
+
+.contact-info {
+  font-weight: normal;
+}
+
+.specific-cta-button,
+.specific-button {
+  font-family: "montserrat", "open sans", "sans-serif";
 }

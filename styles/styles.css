@@ -10,7 +10,7 @@
   background-size: cover;
   border: 10px solid #024059;
   min-width: 100%;
-  min-height: 50vh;
+  min-height: 70vh;
 }
 
 /* Index - Section 2 - Bestsellers */
@@ -32,12 +32,142 @@ h2 {
 .bestsellers-photos {
   color: #024059;
   width: 10rem;
+  border: 1px solid #024059;
   height: 14rem;
-  border: 7px solid #b4d9d5;
   padding: 5px 5px 5px 5px;
+  margin-bottom: 100px;
+  box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
 }
 
+/* Contact page */
+
+.contact-main {
+  display: flex;
+}
+
+.left-side {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.right-side {
+  display: flex;
+  flex: 1;
+  float: right;
+  flex-direction: column;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+input[type="text"] {
+  margin: 10px;
+  padding: 5px;
+  max-height: 20px;
+  border: 2px solid #7fa644;
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  line-height: 2px;
+}
+
+/* list of jackets */
+
+.grid-area {
+  display: grid;
+  border: 5px solid #024059;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.grid-child {
+  border: 2px solid #024059;
+  text-align: center;
+  box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
+}
+
+.grid-item1,
+.grid-item2,
+.grid-item3,
+.grid-item4,
+.grid-item5,
+.grid-item6,
+.grid-item7,
+.grid-item8 {
+  width: 150px;
+  height: 200px;
+}
+
+/* Specific Jacket */
+
+.specific-main {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.specificjacket-picture {
+  border: 1px solid #024059;
+  box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
+  margin: 10px;
+  padding: 10px;
+}
+
+.spacing {
+  margin-bottom: 20px;
+}
+
+.bottom-right {
+  margin-bottom: 10px;
+}
+
+/* Checkout Sucsess */
+
+/* About page */
+
 /* Media Queries */
+
+@media (max-width: 840px) {
+  .specificjacket-picture {
+    width: 250px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 550px) {
+  .specificjacket-picture {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 950px) {
+  .grid-container {
+    grid-template-columns: 50% 50%;
+  }
+}
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
   .fas {
@@ -50,9 +180,6 @@ h2 {
 
   .page-layers {
     margin-bottom: 200px;
-  }
-
-  .page-layers nav {
   }
 
   .page-layers ul {

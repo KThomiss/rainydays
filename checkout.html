@@ -18,25 +18,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/ff4dde0530.js" crossorigin="anonymous"></script>
-        <link href="styles/checkout.css" rel="stylesheet">
+        <link href="styles/styles.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <section>
-                <div class="icons">
-                    <a href="/checkout.html"><i class="fas fa-shopping-cart fa-2x"></i></a>
-                    <a href="/contact.html"><i class="fas fa-phone fa-2x"></i></a>
-                    <a href="/user.html"><i class="fas fa-user fa-2x"></i></a>
-                    <a href="/about.html"><i class="fas fa-users fa-2x"></i></a>
-                </div>
-            </section>
-            <section class="logo-name">
-                <div class="slogan">
-                    <a href="index.html"><img src="images/logo.png" alt="logo of projectrainydays.com" class="logo"></a>
+            <nav class="primary-nav">
+                <ul>
+                    <li><a href="checkout.html"><i class="fas fa-shopping-cart fa-2x"></i>Checkout</a></li>
+                    <li><a href="user.html"><i class="fas fa-user fa-2x"></i>Login</a></li>
+                    <li><a href="contact.html"><i class="fas fa-phone fa-2x"></i>Contact</a></li>
+                    <li><a href="about.html"><i class="fas fa-users fa-2x"></i>About</a></li>
+                </ul>   
+            </nav>
+            <div class="logo">
+                <div>
+                    <a href="index.html"><img src="images/logo.png" alt="logo of projectrainydays.com" class="logo-img"></a>
                     <h1><a href="index.html">Rainy Days</a></h1>
-                    <p>Pushing the comfort zone</p>
+                    <p class ="slogan">Pushing the comfort zone</p>
                 </div>
-            </section>
+            </div>
         </header>
         <main>
             <section class="left-side">
@@ -75,8 +75,12 @@
                 <p>Price: 899 Nok</p>
             </section>
             <section class="cta-buttons">
-                <a href="/listofjackets/rainydays.html" class="cta-button1">Continue Shopping</a>
-                <a href="checkoutsucsess.html" class="cta-button2">Continue to Payment</a>
+                <div class="spacing">
+                    <a href="listofjackets/rainydays.html"><button class="buttons">Continue Shopping</button></a>
+                </div>
+                <div>
+                    <a href="checkoutsucsess.html"><button class="buttons">Continue to Payment</button></a>
+                </div>
             </section>
         </main>
     </body>
