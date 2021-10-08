@@ -24,7 +24,7 @@
         <header>
             <nav class="primary-nav">
                 <ul>
-                    <li><a href="checkout.html"><i class="fas fa-shopping-cart fa-2x"></i>Checkout</a></li>
+                    <li class="current"><a href="checkout.html"><i class="fas fa-shopping-cart fa-2x"></i>Checkout</a></li>
                     <li><a href="user.html"><i class="fas fa-user fa-2x"></i>Login</a></li>
                     <li><a href="contact.html"><i class="fas fa-phone fa-2x"></i>Contact</a></li>
                     <li><a href="about.html"><i class="fas fa-users fa-2x"></i>About</a></li>
@@ -38,49 +38,74 @@
                 </div>
             </div>
         </header>
-        <main>
-            <section class="left-side">
+        <main class="checkout-main">
+            <form method="POST" action="checkoutsucsess.html" class="contactForm">
                 <h2>Shipping information</h2>
-                <p><strong>Enter your details:</strong></p>
-                <form class="input">
-                    <label for firstname="firstname">Enter your firstname:</label>
-                    <input type="text" name="Firstname" id="Firstname">
-                    <label for lastname="lastname">Enter your lastname:</label>
-                    <input type="text" name="Lastname" id="Lastname">
-                    <label for email="email">Enter your email adress:</label>
-                    <input type="text" name="Email" id="Email">
-                    <label for phone number="Phone number">Enter your phone number</label>
+                <div>
+                    <label>Firstname:</label>
+                    <input type="text" name="Firstname" id="firstName">
+                    <div class="errorMessage" id="firstnameError">Please enter your first name</div>
+                </div>
+                <div>
+                    <label>Lastname:</label>
+                    <input type="text" name="Lastname" id="lastName">
+                    <div class="errorMessage" id="lastnameError">Please enter your last name</div>
+                </div>
+                <div>
+                    <label>Email adress:</label>
+                    <input type="text" name="Email" id="emailAdress">
+                    <div class="errorMessage" id="emailError">Please enter a valid email adress</div>
+                </div>
+                <div>
+                    <label>Phone number:</label>
                     <input type="tel" name="telephone" id="telephone">
-                </form>
-                <p><strong>Shipping address</strong></p>
-                <form class="input">
-                    <label for streetname="streetname">Enter your Streetname:</label>
+                    <div class="errorMessage" id="phoneError">Please enter a valid phone number</div>
+                </div>
+                <h2>Shipping address</h2>
+                <div>
+                    <label>Streetname:</label>
                     <input type="text" name="streetname" id="streetname">
-                    <label for streetnumber="streetnumber">Enter your streetnumber:</label>
+                    <div class="errorMessage">Please enter your streetname</div>
+                </div>
+                <div>
+                    <label>Street number:</label>
                     <input type="number" name="streetnumber" id="streetnumber">
-                    <label for Additional adress information="additional adress information">Additional info</label>
-                    <input type="text" name="additional info" id="additional info">
-                    <label for zip code="zip/postal code">Enter Zip/postal code:</label>
-                    <input type="number" name="zip/postal code" id="zip/Postal code">
-                    <label for city ="city">Enter your city</label>
-                    <input type="text" name="city" id="city">
-                </form>
-            </section>
-            <section class="right-side">
+                    <div class="errorMessage">Please enter a number</div>
+                </div>
+                <div>
+                    <label>Zip/postal code:</label>
+                    <input type="number" name="zip/postal code" id="zipCode">
+                    <div class="errorMessage">Please enter a number</div>
+                </div>
+                <div>
+                    <label>Country:</label>
+                    <input type="text" name="country" id="country">
+                    <div class="errorMessage">Please enter your country</div>
+                </div>
+                <button class="submit">Submit</button>
+                <a href="index.html"><button class="continue">Continue shopping</button></a>
+            </form>
+            <div>
                 <h3>Your order</h3>
                 <img src="images/green-wave.jpg" alt="turquoise jakcet" class="picture">
                 <p><strong>Green Wave</strong></p>
                 <p>Color: Turquoise</p>
                 <p>Size: M</p>
                 <p>Price: 899 Nok</p>
-            </section>
-            <section class="cta-buttons">
-                <div class="spacing">
-                    <a href="listofjackets/rainydays.html"><button class="buttons">Continue Shopping</button></a>
-                </div>
-                <div>
-                    <a href="checkoutsucsess.html"><button class="buttons">Continue to Payment</button></a>
-                </div>
-            </section>
+            </div>
         </main>
+        <footer>
+            <section class="footer-info">
+                <h3 class="delivery">Delivery</h3>
+                <p>All order will be delivered within 2-6 business days</p>
+            </section>
+            <section>
+                <h3 class="Free-Shipping">Free Shipping</h3>
+                <p>Free standard shipping on orders over 800 NOK</p>
+            </section>
+            <section>
+                <h3 class="Free-Returns">Free Returns</h3>
+                <p>We offer a 80-day free return policy</p>
+            </section> 
+        </footer>
     </body>

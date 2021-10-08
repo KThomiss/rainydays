@@ -42,24 +42,43 @@
             <div class="specificpage-left">
                 <img src="images/green-wave.jpg" alt="picutre of green jacket" class="specificjacket-picture">
             </div>
-            <div class="specificpage-right">
+            <div class="specificJacket-info">
                 <p><strong>Green Wave</strong></p>
                 <p>Nok 899</p>
-                <p>Size:</p>
-                <input type="radio" name="S" Value="S" id="S"><label for="S">S</label>
-                <input type="radio" name="M" Value="M" id="M"><label for="M">M</label>
-                <input type="radio" name="L" Value="L" id="L"><label for="L">L</label>
-                <input type="radio" name="XL" Value="XL" id="XL"><label for="XL">XL</label>
-                <p>Great durability and suitable for</p>
-                <p>both rainy and cold days.</p>
-                <p>Wind resistant.</p>
-                <p>With its clean design and comfortable texture</p>
-                <p>this jacket are timeless.</p>
-                <div class="spacing">
-                    <button class="buttons">Add to cart</button>
+                <label for="select">Select size:</label>
+                <select name="select">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">L</option>
+                    <option value="extraLarge">XL</option>
+                </select>
+                <div class="jacketInfo">
+                    <p>Great durability and suitable for</p>
+                    <p>both rainy and cold days.</p>
+                    <p>Wind resistant.</p>
+                    <p>With its clean design and comfortable texture</p>
+                    <p>this jacket are timeless.</p>
                 </div>
-                <div>
-                    <a href="checkout.html"><button class="buttons">Checkout</button></a>
+                <div class="align">
+                    <button class="cart">Add to cart</button>
+                    <div class="message">Added to cart</div>
+                    <a href="checkout.html"><button class="checkout">Checkout</button></a>
                 </div>
             </div>
+            <script src="/js/message.js"></script>
         </main>
+        <footer>
+            <section class="footer-info">
+                <h3 class="delivery">Delivery</h3>
+                <p>All order will be delivered within 2-6 business days</p>
+            </section>
+            <section>
+                <h3 class="Free-Shipping">Free Shipping</h3>
+                <p>Free standard shipping on orders over 800 NOK</p>
+            </section>
+            <section>
+                <h3 class="Free-Returns">Free Returns</h3>
+                <p>We offer a 80-day free return policy</p>
+            </section> 
+        </footer>
+    </body>

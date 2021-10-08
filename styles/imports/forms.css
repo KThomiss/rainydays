@@ -1,0 +1,40 @@
+select {
+  width: 10em;
+  padding: 10px;
+  border: 1px solid #024059;
+  box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
+  background-color: rgba(2, 64, 89, 0.1);
+}
+
+.contactForm {
+  box-sizing: border-box;
+  min-height: 10vh;
+  margin: 25px;
+}
+
+label {
+  display: block;
+  /*margin-left: 10px;*/
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"] {
+  width: 250px;
+  margin-left: 25px;
+  border: none;
+  border-bottom: 2px solid #024059;
+  margin: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #d9a74a;
+}
+
+.errorMessage {
+  /*display: none;*/
+  color: red;
+  margin-left: 25px;
+}

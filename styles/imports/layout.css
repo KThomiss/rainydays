@@ -1,6 +1,12 @@
 body {
   margin: 0;
-  background-color: #f1d5a3;
+  background: linear-gradient(180deg, #cbd5bc, #d9a74a);
+}
+
+main {
+  background-color: #ffffff;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 h1,
@@ -36,13 +42,6 @@ h1 a {
   text-decoration: none;
 }
 
-main {
-  background-color: #ffffff;
-  margin-left: 100px;
-  margin-right: 100px;
-  /*box-shadow: 6px 6px rgba(0, 0, 0, 0.5);*/
-}
-
 /* Primary navigation with icons */
 
 .primary-nav {
@@ -67,6 +66,11 @@ main {
   color: black;
 }
 
+.current {
+  background-color: #d9a74a;
+  color: black;
+}
+
 .primary-nav a {
   color: inherit;
   text-decoration: none;
@@ -74,14 +78,11 @@ main {
 
 /* Page layers */
 
-.page-layers {
-  background-color: #f1d5a3;
-}
-
 .page-layers ul {
   text-align: center;
   max-height: 16px;
   padding: 0;
+  background-color: #cbd5bc;
 }
 
 .page-layers li {
@@ -111,41 +112,34 @@ main {
 
 /* buttons and CTA */
 
-.buttons {
+.cart,
+.checkout,
+.submit,
+.continue {
   color: #ffffff;
   width: 50%;
-  margin: 0 auto;
-  font-size: 100%;
   min-height: 45px;
   background-color: #024059;
   box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
   border: none;
+  cursor: pointer;
+  margin-top: 25px;
 }
 
-.spacing {
-  margin-bottom: 20px;
+.cart {
+  margin-bottom: 10px;
 }
 
-.buttons:hover {
+.cart:hover,
+.checkout:hover,
+.submit:hover,
+.continue:hover {
   background-color: #d9a74a;
   color: black;
   box-shadow: 6px 6px rgba(217, 167, 74, 0.5);
 }
 
-/*.specific-button {
-  display: block;
-  align-self: flex-end;
-  color: #ffffff;
-  font-size: 16px;
-  background-color: #024059;
-  border: none;
-  padding: 2px;
-  margin: 0 auto;
-  min-width: 50%;
-  min-height: 50px;
-}*/
-
-/* Home Page - Footer - Info */
+/* Footer */
 
 footer {
   color: #024059;

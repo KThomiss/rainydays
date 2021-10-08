@@ -9,21 +9,17 @@ h3 {
   font-family: "Russo One", "open sans", "sans-serif";
 }
 
-h3 {
-  font-weight: bolder;
-}
-
-h3,
 p,
-ul {
+ul,
+label,
+select,
+.message {
   font-family: "Open Sans", "sans-serif";
 }
 
-.contact-info {
-  font-weight: normal;
-}
-
-.specific-cta-button,
-.specific-button {
+.cart,
+.checkout,
+.submit,
+.continue {
   font-family: "montserrat", "open sans", "sans-serif";
 }

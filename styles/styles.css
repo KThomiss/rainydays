@@ -1,5 +1,7 @@
 @import url(../styles/imports/layout.css);
 @import url(../styles/imports/fonts.css);
+@import url(../styles/imports/message.css);
+@import url(../styles/imports/forms.css);
 
 /* Index - Section 1 - Homepage photo */
 
@@ -15,28 +17,27 @@
 
 /* Index - Section 2 - Bestsellers */
 
-.bestsellers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
-h2 {
+.bestsellers h2 {
   font-size: 37px;
   color: #024059;
   text-align: center;
   margin-top: 100px;
 }
 
+.bestseller-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 100px;
+}
+
 .bestsellers-photos {
-  color: #024059;
-  width: 10rem;
   border: 1px solid #024059;
-  height: 14rem;
-  padding: 5px 5px 5px 5px;
-  margin-bottom: 100px;
   box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
+  width: 10rem;
+  height: 14rem;
+  padding: 5px;
 }
 
 /* Contact page */
@@ -60,19 +61,6 @@ h2 {
   flex-direction: column;
   margin-right: 3%;
   margin-left: 3%;
-}
-
-.input {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2em;
-}
-
-input[type="text"] {
-  margin: 10px;
-  padding: 5px;
-  max-height: 20px;
-  border: 2px solid #7fa644;
 }
 
 .sign-in {
@@ -122,10 +110,12 @@ input[type="text"] {
 /* Specific Jacket */
 
 .specific-main {
-  background-color: #ffffff;
   display: flex;
-  justify-content: space-evenly;
+  /*flex-direction: row;*/
+  justify-content: center;
   flex-wrap: wrap;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .specificjacket-picture {
@@ -135,12 +125,19 @@ input[type="text"] {
   padding: 10px;
 }
 
-.spacing {
-  margin-bottom: 20px;
+/* Checkout */
+
+.checkout-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.bottom-right {
-  margin-bottom: 10px;
+.picture {
+  border: 1px solid #024059;
+  box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
+  max-width: 20rem;
+  margin-right: 10px;
 }
 
 /* Checkout Sucsess */
@@ -157,6 +154,11 @@ input[type="text"] {
 }
 
 @media (max-width: 550px) {
+  main {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
   .specificjacket-picture {
     width: 150px;
     height: 200px;
