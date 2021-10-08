@@ -22,12 +22,73 @@
     </head>
     <body>
         <header>
-            <h1>This page is reserved for user page - for a later stage</h1>
-            <a href="index.html">Back to homepage</a>
+            <nav class="primary-nav">
+                <ul>
+                    <li><a href="checkout.html"><i class="fas fa-shopping-cart fa-2x"></i>Checkout</a></li>
+                    <li class="current"><a href="user.html"><i class="fas fa-user fa-2x"></i>Login</a></li>
+                    <li><a href="contact.html"><i class="fas fa-phone fa-2x"></i>Contact</a></li>
+                    <li><a href="about.html"><i class="fas fa-users fa-2x"></i>About</a></li>
+                </ul>   
+            </nav>
+            <div class="logo">
+                <div>
+                    <a href="index.html"><img src="images/logo.png" alt="logo of projectrainydays.com" class="logo-img"></a>
+                    <h1><a href="index.html">Rainy Days</a></h1>
+                    <p class ="slogan">Pushing the comfort zone</p>
+                </div>
+            </div>
         </header>
         <main>
+            <div class="userContainer">
+                <form method="POST" class="contactForm" id="errorForm">
+                    <h2>Create an account</h2>
+                    <div>
+                        <label>Firstname:</label>
+                        <input type="text" name="Firstname" id="firstName">
+                        <div class="errorMessage" id="textError">Please enter your first name</div>
+                    </div>
+                    <div>
+                        <label>Lastname:</label>
+                        <input type="text" name="Lastname" id="lastName">
+                        <div class="errorMessage" id="textError">Please enter your last name</div>
+                    </div>
+                    <div>
+                        <label>Email adress:</label>
+                        <input type="text" name="Email" id="emailAdress">
+                        <div class="errorMessage" id="textError">Please enter a valid email adress</div>
+                    </div>
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="password" name="New Password" id="password">
+                        <div class="errorMessage" id="textError">Password must be six or more characters</div>
+                    </div>
+                    <div>
+                        <label for="confirm password">Confirm your password:</label>
+                        <input type="password" name="Confirm Password" id="confirmPassword">
+                        <div class="errorMessage" id="textError">Passwords did not match</div>
+                    </div>
+                    <button class="account">Create Account</button>
+                </form>
+            </div>
+            <div class="sign-in">
+                <p>Already have an account?</p>
+                <a href="#"><p>sign in here</p></a>
+            </div>
         </main>
+        <script src="/js/form.js"></script>
         <footer>
+            <section class="footer-info">
+                <h3 class="delivery">Delivery</h3>
+                <p>All order will be delivered within 2-6 business days</p>
+            </section>
+            <section>
+                <h3 class="Free-Shipping">Free Shipping</h3>
+                <p>Free standard shipping on orders over 800 NOK</p>
+            </section>
+            <section>
+                <h3 class="Free-Returns">Free Returns</h3>
+                <p>We offer a 80-day free return policy</p>
+            </section> 
         </footer>
     </body>
 </html>

@@ -8,20 +8,23 @@ select {
 
 .contactForm {
   box-sizing: border-box;
-  min-height: 10vh;
-  margin: 25px;
+  text-align: center;
+  width: 50%;
 }
 
 label {
   display: block;
   /*margin-left: 10px;*/
   margin-top: 10px;
+  margin-left: 15%;
+  text-align: left;
 }
 
 input[type="text"],
 input[type="tel"],
-input[type="number"] {
-  width: 250px;
+input[type="number"],
+input[type="password"] {
+  width: 70%;
   margin-left: 25px;
   border: none;
   border-bottom: 2px solid #024059;
@@ -34,7 +37,6 @@ input:focus {
 }
 
 .errorMessage {
-  /*display: none;*/
+  display: none;
   color: red;
-  margin-left: 25px;
 }

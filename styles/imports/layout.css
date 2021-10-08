@@ -115,7 +115,8 @@ h1 a {
 .cart,
 .checkout,
 .submit,
-.continue {
+.continue,
+.account {
   color: #ffffff;
   width: 50%;
   min-height: 45px;
@@ -133,7 +134,8 @@ h1 a {
 .cart:hover,
 .checkout:hover,
 .submit:hover,
-.continue:hover {
+.continue:hover,
+.account:hover {
   background-color: #d9a74a;
   color: black;
   box-shadow: 6px 6px rgba(217, 167, 74, 0.5);

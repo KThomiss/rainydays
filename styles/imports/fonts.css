@@ -13,7 +13,8 @@ p,
 ul,
 label,
 select,
-.message {
+.message,
+.errorMessage {
   font-family: "Open Sans", "sans-serif";
 }
 

@@ -54,24 +54,6 @@
   margin-right: 3%;
 }
 
-.right-side {
-  display: flex;
-  flex: 1;
-  float: right;
-  flex-direction: column;
-  margin-right: 3%;
-  margin-left: 3%;
-}
-
-.sign-in {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-  padding: 10px;
-  line-height: 2px;
-}
-
 /* list of jackets */
 
 .grid-area {
@@ -131,6 +113,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .picture {
@@ -143,6 +127,45 @@
 /* Checkout Sucsess */
 
 /* About page */
+
+.about-logo {
+  font-weight: bold;
+  font-size: 100px;
+  color: #024059;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.saying {
+  font-weight: bold;
+  color: #024059;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.slogan,
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* User page */
+
+.userContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  line-height: 2px;
+}
 
 /* Media Queries */
 
@@ -159,9 +182,14 @@
     margin-right: 50px;
   }
 
-  .specificjacket-picture {
+  .specificjacket-picture,
+  .big-logo,
+  .about-text {
     width: 150px;
     height: 200px;
+  }
+  .about-text {
+    font-size: 50px;
   }
 }
 

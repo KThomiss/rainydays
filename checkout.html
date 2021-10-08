@@ -39,48 +39,48 @@
             </div>
         </header>
         <main class="checkout-main">
-            <form method="POST" action="checkoutsucsess.html" class="contactForm">
+            <form method="POST" action="checkoutsucsess.html" class="contactForm" id="errorForm">
                 <h2>Shipping information</h2>
                 <div>
                     <label>Firstname:</label>
                     <input type="text" name="Firstname" id="firstName">
-                    <div class="errorMessage" id="firstnameError">Please enter your first name</div>
+                    <div class="errorMessage" id="textError">Please enter your first name</div>
                 </div>
                 <div>
                     <label>Lastname:</label>
                     <input type="text" name="Lastname" id="lastName">
-                    <div class="errorMessage" id="lastnameError">Please enter your last name</div>
+                    <div class="errorMessage" id="textError">Please enter your last name</div>
                 </div>
                 <div>
                     <label>Email adress:</label>
                     <input type="text" name="Email" id="emailAdress">
-                    <div class="errorMessage" id="emailError">Please enter a valid email adress</div>
+                    <div class="errorMessage" id="textError">Please enter a valid email adress</div>
                 </div>
                 <div>
                     <label>Phone number:</label>
                     <input type="tel" name="telephone" id="telephone">
-                    <div class="errorMessage" id="phoneError">Please enter a valid phone number</div>
+                    <div class="errorMessage" id="textError">Please enter a valid phone number</div>
                 </div>
                 <h2>Shipping address</h2>
                 <div>
                     <label>Streetname:</label>
-                    <input type="text" name="streetname" id="streetname">
-                    <div class="errorMessage">Please enter your streetname</div>
+                    <input type="text" name="streetname" id="streetName">
+                    <div class="errorMessage" id="textError">Please enter your streetname</div>
                 </div>
                 <div>
                     <label>Street number:</label>
-                    <input type="number" name="streetnumber" id="streetnumber">
-                    <div class="errorMessage">Please enter a number</div>
+                    <input type="number" name="streetnumber" id="streetNumber">
+                    <div class="errorMessage" id="textError">Please enter a number</div>
                 </div>
                 <div>
                     <label>Zip/postal code:</label>
                     <input type="number" name="zip/postal code" id="zipCode">
-                    <div class="errorMessage">Please enter a number</div>
+                    <div class="errorMessage" id="textError">Please enter a number</div>
                 </div>
                 <div>
                     <label>Country:</label>
                     <input type="text" name="country" id="country">
-                    <div class="errorMessage">Please enter your country</div>
+                    <div class="errorMessage" id="textError">Please enter your country</div>
                 </div>
                 <button class="submit">Submit</button>
                 <a href="index.html"><button class="continue">Continue shopping</button></a>
@@ -94,6 +94,7 @@
                 <p>Price: 899 Nok</p>
             </div>
         </main>
+        <script src="/js/form.js"></script>
         <footer>
             <section class="footer-info">
                 <h3 class="delivery">Delivery</h3>
