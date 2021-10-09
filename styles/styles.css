@@ -28,21 +28,26 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 5%;
   padding-bottom: 100px;
 }
 
 .bestsellers-photos {
-  border: 1px solid #024059;
-  box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
+  border-radius: 20px 0px;
+  box-shadow: 6px 6px rgba(2, 64, 89, 0.3);
   width: 10rem;
   height: 14rem;
   padding: 5px;
 }
 
+.bestsellers-photos:hover {
+  box-shadow: none;
+}
+
 /* Contact page */
 
 .contact-main {
+  border: 5px solid #024059;
   display: flex;
 }
 
@@ -72,7 +77,7 @@
 }
 
 .grid-child {
-  border: 2px solid #024059;
+  border-radius: 20px 0px;
   text-align: center;
   box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
 }
@@ -93,23 +98,34 @@
 
 .specific-main {
   display: flex;
-  /*flex-direction: row;*/
   justify-content: center;
   flex-wrap: wrap;
+  border: 5px solid #024059;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
 .specificjacket-picture {
-  border: 1px solid #024059;
+  border-radius: 20px 0px;
   box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
   margin: 10px;
   padding: 10px;
 }
 
+.align {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
+
+.specificJacket-info {
+  padding-left: 10%;
+}
+
 /* Checkout */
 
 .checkout-main {
+  border: 5px solid #024059;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -118,7 +134,7 @@
 }
 
 .picture {
-  border: 1px solid #024059;
+  border-radius: 20px 0px;
   box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
   max-width: 20rem;
   margin-right: 10px;
@@ -126,43 +142,66 @@
 
 /* Checkout Sucsess */
 
+.sucsess-main {
+  padding: 10%;
+  border: 5px solid #024059;
+}
+
+.order {
+  background-color: #fff;
+  border: 3px solid #024059;
+  padding: 10px 10px 10px;
+  max-width: 50%;
+}
+
+.pictures {
+  border: 2px solid #7fa644;
+  min-height: auto;
+  max-width: 60px;
+}
+
+.price {
+  float: right;
+}
+
 /* About page */
+
+.about-main {
+  border: 5px solid #024059;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+}
+
+.big-logo {
+  display: block;
+  margin: 0 auto;
+}
 
 .about-logo {
   font-weight: bold;
   font-size: 100px;
-  color: #024059;
-  text-decoration: none;
   margin-bottom: 20px;
 }
 
 .saying {
   font-weight: bold;
-  color: #024059;
   font-size: 40px;
-  margin-top: 20px;
-}
-
-.slogan,
-.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
 }
 
 /* User page */
 
 .userContainer {
+  border: 5px solid #024059;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 .sign-in {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: block;
+  margin: 0 auto;
   padding: 10px;
   line-height: 2px;
 }

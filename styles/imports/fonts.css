@@ -21,6 +21,7 @@ select,
 .cart,
 .checkout,
 .submit,
-.continue {
+.toCheckout {
   font-family: "montserrat", "open sans", "sans-serif";
+  font-size: 1em;
 }

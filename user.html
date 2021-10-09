@@ -45,37 +45,37 @@
                     <div>
                         <label>Firstname:</label>
                         <input type="text" name="Firstname" id="firstName">
-                        <div class="errorMessage" id="textError">Please enter your first name</div>
+                        <div class="errorMessage" id="firstNameError">Please enter your first name</div>
                     </div>
                     <div>
                         <label>Lastname:</label>
                         <input type="text" name="Lastname" id="lastName">
-                        <div class="errorMessage" id="textError">Please enter your last name</div>
+                        <div class="errorMessage" id="lastNameError">Please enter your last name</div>
                     </div>
                     <div>
                         <label>Email adress:</label>
                         <input type="text" name="Email" id="emailAdress">
-                        <div class="errorMessage" id="textError">Please enter a valid email adress</div>
+                        <div class="errorMessage" id="emailError">Please enter a valid email adress</div>
                     </div>
                     <div>
                         <label for="password">Password:</label>
                         <input type="password" name="New Password" id="password">
-                        <div class="errorMessage" id="textError">Password must be six or more characters</div>
+                        <div class="errorMessage" id="passwordError">
+                                <li>Atleast 8 characters</li>
+                                <li>One upper and one lower case character</li>
+                                <li>Atleast one digit</li>
+                        </div>
                     </div>
                     <div>
                         <label for="confirm password">Confirm your password:</label>
                         <input type="password" name="Confirm Password" id="confirmPassword">
-                        <div class="errorMessage" id="textError">Passwords did not match</div>
+                        <div class="errorMessage" id="confirmPasswordError">Passwords did not match</div>
                     </div>
                     <button class="account">Create Account</button>
                 </form>
             </div>
-            <div class="sign-in">
-                <p>Already have an account?</p>
-                <a href="#"><p>sign in here</p></a>
-            </div>
         </main>
-        <script src="/js/form.js"></script>
+        <script src="/js/account.js"></script>
         <footer>
             <section class="footer-info">
                 <h3 class="delivery">Delivery</h3>

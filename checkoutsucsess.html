@@ -18,27 +18,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/ff4dde0530.js" crossorigin="anonymous"></script>
-        <link href="styles/checkoutsucsess.css" rel="stylesheet">
+        <link href="styles/styles.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <section>
-                <div class="icons">
-                    <a href="/checkout.html"><i class="fas fa-shopping-cart fa-2x"></i></a>
-                    <a href="/contact.html"><i class="fas fa-phone fa-2x"></i></a>
-                    <a href="/user.html"><i class="fas fa-user fa-2x"></i></a>
-                    <a href="/about.html"><i class="fas fa-users fa-2x"></i></a>
-                </div>
-            </section>
-            <section class="logo-name">
-                <div class="slogan">
-                    <a href="index.html"><img src="images/logo.png" alt="logo of projectrainydays.com" class="logo"></a>
+            <nav class="primary-nav">
+                <ul>
+                    <li><a href="checkout.html"><i class="fas fa-shopping-cart fa-2x"></i>Checkout</a></li>
+                    <li><a href="user.html"><i class="fas fa-user fa-2x"></i>Login</a></li>
+                    <li><a href="contact.html"><i class="fas fa-phone fa-2x"></i>Contact</a></li>
+                    <li><a href="about.html"><i class="fas fa-users fa-2x"></i>About</a></li>
+                </ul>   
+            </nav>
+            <div class="logo">
+                <div>
+                    <a href="index.html"><img src="images/logo.png" alt="logo of projectrainydays.com" class="logo-img"></a>
                     <h1><a href="index.html">Rainy Days</a></h1>
-                    <p>Pushing the comfort zone</p>
+                    <p class ="slogan">Pushing the comfort zone</p>
                 </div>
-            </section>
+            </div>
         </header>
-        <main>
+        <main class="sucsess-main">
             <section>
                 <h2>Order Information</h2>
                 <p><strong>Your Order Number:</strong></p>
@@ -72,4 +72,18 @@
                 <p>Subtotal = NOK 3547</p>
             </secion>
         </main>
+        <footer>
+            <section class="footer-info">
+                <h3 class="delivery">Delivery</h3>
+                <p>All order will be delivered within 2-6 business days</p>
+            </section>
+            <section>
+                <h3 class="Free-Shipping">Free Shipping</h3>
+                <p>Free standard shipping on orders over 800 NOK</p>
+            </section>
+            <section>
+                <h3 class="Free-Returns">Free Returns</h3>
+                <p>We offer a 80-day free return policy</p>
+            </section> 
+        </footer>
     </body>
