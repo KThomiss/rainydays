@@ -61,17 +61,17 @@
             <fieldset>
                 <form method="POST" id="contactForm">
                     <div>
-                        <label>Your full name</label>
+                        <label for="fullname">Your full name</label>
                         <input type="text" name="fullname" id="fullName">
                         <div class="errorMessage" id="fullNameError">Please enter your full name</div>
                     </div>
                     <div>
-                        <label>E-mail:</label>
+                        <label for="email">E-mail:</label>
                         <input type="text" name="e-mail" id="email">
                         <div class="errorMessage" id="emailError">Please enter a valid email adress</div>
                     </div>
                     <div>
-                        <label>Select a subject:</label>
+                        <label for="select">Select a subject:</label>
                         <select name="subject" id="subject">
                             <option value="shipping">Shipping</option>
                             <option value="payment">Payment</option>
@@ -81,7 +81,7 @@
                         </select>
                     </div>
                     <div>
-                        <label>Message:</label>
+                        <label for="message">Message:</label>
                         <textarea name="message" cols="50" rows="15"></textarea>
                     </div>
                     <button class="submit">Send</button>
