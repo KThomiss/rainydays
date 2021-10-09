@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <!-- Hotjar Tracking Code for https://www.projectrainydays.com/ -->
 <script>
@@ -37,26 +37,71 @@
                     <p class ="slogan">Pushing the comfort zone</p>
                 </div>
             </div>
+            <nav class="page-layers">
+                <ul>
+                    <li><a href="/listofjackets/mensjackets.html" class="mensjackets">Mens</a></li>
+                    <li><a href="/listofjackets/womensjackets.html" class="womensjackets">Womens</a></li>
+                    <li><a href="/listofjackets/colddays.html" class="cold-days">Cold days</a></li>
+                    <li><a href="/listofjackets/rainydays.html" class="rainy-days">Rainy days</a></li>
+                    <li><a href="/listofjackets/sunnydays.html" class="sunny-days">Sunny days</a></li>
+                </ul>
+            </nav>
         </header>
         <main class="contact-main">
-            <section class="left-side">
-                <div>
-                    <h2>Contact</h2>
-                    <p class="RainyDays"><strong>Rainy Days</strong></p>
-                </div>
-                <div class="contact-info">
-                    <p><strong>About your order:</strong></p>
-                    <p>If there is any questions do not hesitate to Contact Us.</p>
-                    <p><strong>We are open from:</strong> Monday-Friday 10.00 - 18.00 GMT</p>
-                    <p><strong>Call:</strong> +47 xx xx xx xx</p>
-                    <p><strong>Email:</strong> RainyDays@xxxxx.com</p>
-                </div>
-                <div>
-                    <p>As soon as we have received your email an automatic response will be sent to you with your case number.</p>
-                </div>
-            </section>
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p><strong>Rainy Days</strong></p>
+                <p><strong>About your order:</strong></p>
+                <p>If there is any questions do not hesitate to call or leave a message below.</p>
+                <p><strong>We are open from:</strong> Monday-Friday 10.00 - 18.00 GMT</p>
+                <p><strong>Call:</strong> +47 xx xx xx xx</p>
+                <p><strong>Email:</strong> RainyDays@xxxxx.com</p>
+                <p>As soon as we have received your email an automatic response will be sent to you with your case number.</p>
+            </div>
+            <fieldset>
+                <form method="POST" id="contactForm">
+                    <div>
+                        <label>Your full name</label>
+                        <input type="text" name="fullname" id="fullName">
+                        <div class="errorMessage" id="fullNameError">Please enter your full name</div>
+                    </div>
+                    <div>
+                        <label>E-mail:</label>
+                        <input type="text" name="e-mail" id="email">
+                        <div class="errorMessage" id="emailError">Please enter a valid email adress</div>
+                    </div>
+                    <div>
+                        <label>Select a subject:</label>
+                        <select name="subject" id="subject">
+                            <option value="shipping">Shipping</option>
+                            <option value="payment">Payment</option>
+                            <option value="size">Size</option>
+                            <option value="products">Products</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Message:</label>
+                        <textarea name="message" cols="50" rows="15"></textarea>
+                    </div>
+                    <button class="submit">Send</button>
+                </form>
+            </fieldset>
         </main>
+        <script src="js/contact.js"></script>
         <footer>
+            <section class="footer-info">
+                <h3 class="delivery">Delivery</h3>
+                <p>All order will be delivered within 2-6 business days</p>
+            </section>
+            <section>
+                <h3 class="Free-Shipping">Free Shipping</h3>
+                <p>Free standard shipping on orders over 800 NOK</p>
+            </section>
+            <section>
+                <h3 class="Free-Returns">Free Returns</h3>
+                <p>We offer a 80-day free return policy</p>
+            </section> 
         </footer>
     </body>
 </html>

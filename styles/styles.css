@@ -49,14 +49,13 @@
 .contact-main {
   border: 5px solid #024059;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 5%;
 }
 
-.left-side {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  margin-left: 3%;
-  margin-right: 3%;
+.contact-info {
+  margin: 0 auto;
 }
 
 /* list of jackets */

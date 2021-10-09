@@ -15,7 +15,6 @@ select {
 label {
   display: block;
   margin-top: 10px;
-  /*margin-left: 15%;*/
   text-align: left;
 }
 
@@ -33,6 +32,19 @@ input[type="password"] {
 input:focus {
   outline: none;
   border-bottom: 2px solid #d9a74a;
+}
+
+fieldset {
+  margin: 0 auto;
+  border: none;
+}
+
+textarea {
+  padding: 15px;
+  max-height: 200px;
+  border: 2px solid #024059;
+  border-radius: 10px;
+  width: 80%;
 }
 
 .errorMessage {
