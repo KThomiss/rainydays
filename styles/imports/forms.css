@@ -7,9 +7,11 @@ select {
 }
 
 .contactForm {
-  box-sizing: border-box;
-  text-align: center;
   width: 50%;
+}
+
+.centeringButtons {
+  text-align: center;
 }
 
 label {
@@ -45,10 +47,4 @@ textarea {
   border: 2px solid #024059;
   border-radius: 10px;
   width: 80%;
-}
-
-.errorMessage {
-  display: none;
-  color: red;
-  list-style-type: none;
 }
