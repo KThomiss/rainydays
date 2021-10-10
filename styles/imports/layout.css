@@ -127,7 +127,7 @@ h1 a {
 .toCheckout {
   display: block;
   min-height: 45px;
-  width: 50%;
+  width: 30vw;
   color: #ffffff;
   background-color: #024059;
   box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
