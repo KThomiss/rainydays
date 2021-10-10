@@ -1,7 +1,7 @@
 select {
   width: 10em;
   padding: 10px;
-  border: 1px solid #024059;
+  border: 1px solid rgba(2, 64, 89, 0.5);
   box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
   background-color: rgba(2, 64, 89, 0.1);
 }

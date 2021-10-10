@@ -65,17 +65,12 @@
   text-align: center;
 }
 
-.grid-area h2 {
-  font-size: 5vw;
-  text-shadow: 1px #7fa644;
-}
-
 .grid-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  column-gap: 30px;
-  row-gap: 30px;
+  column-gap: 5%;
+  row-gap: 50px;
   margin-top: 10%;
   margin-bottom: 10%;
 }
@@ -83,8 +78,12 @@
 .grid-child {
   border-radius: 20px 0px;
   text-align: center;
-  box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
   padding: 10px;
+}
+
+.grid-child:hover {
+  border: 1px solid rgba(2, 64, 89, 0.5);
+  box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
 }
 
 /* Specific Jacket */
@@ -100,6 +99,7 @@
 
 .specificjacket-picture {
   border-radius: 20px 0px;
+  border: 1px solid rgba(2, 64, 89, 0.5);
   box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
   margin: 10px;
   padding: 10px;
