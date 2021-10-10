@@ -9,6 +9,11 @@ h3 {
   font-family: "Russo One", "open sans", "sans-serif";
 }
 
+.grid-area h2 {
+  font-size: 5vw;
+  color: rgba(2, 64, 89, 0.808);
+}
+
 p,
 ul,
 label,

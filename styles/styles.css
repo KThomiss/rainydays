@@ -62,6 +62,12 @@
 
 .grid-area {
   border: 5px solid #024059;
+  text-align: center;
+}
+
+.grid-area h2 {
+  font-size: 5vw;
+  text-shadow: 1px #7fa644;
 }
 
 .grid-container {
