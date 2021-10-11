@@ -101,6 +101,14 @@ h1 a {
   color: black;
 }
 
+#cold-days,
+#mensjackets,
+#rainy-days,
+#sunny-days,
+#womensjackets {
+  border: 10px solid #d9a74a;
+}
+
 .page-layers a:hover {
   background-color: #d9a74a;
   color: black;
