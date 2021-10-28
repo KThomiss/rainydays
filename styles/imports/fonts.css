@@ -19,7 +19,9 @@ ul,
 label,
 select,
 .message,
-.errorMessage {
+.errorMessage,
+.loading-text,
+strong {
   font-family: "Open Sans", "sans-serif";
 }
 

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rainy Days - List of jackets for Cold Days</title>
+        <meta charset="utf-8">
+        <meta name="description" content="List of jackets for cold days">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ff4dde0530.js" crossorigin="anonymous"></script>
+        <link href="../styles/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="primary-nav">
+                <ul>
+                    <li><a href="/checkout.html"><i class="fas fa-shopping-cart fa-2x"></i>Checkout</a></li>
+                    <li><a href="/user.html"><i class="fas fa-user fa-2x"></i>Login</a></li>
+                    <li><a href="/contact.html"><i class="fas fa-phone fa-2x"></i>Contact</a></li>
+                    <li><a href="/about.html"><i class="fas fa-users fa-2x"></i>About</a></li>
+                </ul>   
+            </nav>
+            <div class="logo">
+                <div>
+                    <a href="/index.html"><img src="../images/logo.png" alt="logo of projectrainydays.com" class="logo-img"></a>
+                    <h1><a href="/index.html">Rainy Days</a></h1>
+                    <p class ="slogan">Pushing the comfort zone</p>
+                </div>
+            </div>
+            <nav class="page-layers">
+                <ul>
+                    <li><a href="mensjacketsAPI.html" class="mensjackets">Men</a></li>
+                    <li><a href="womensjacketsAPI.html" class="womensjackets">Women</a></li>
+                    <li><a href="colddaysAPI.html" class="cold-days">Cold days</a></li>
+                    <li><a href="rainydaysAPI.html" class="rainy-days">Rainy days</a></li>
+                    <li><a href="sunnydaysAPI.html" id="current">Sunny days</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="grid-area" id="mensjackets">
+                <h2>Jackets for men</h2>
+                <div class="loadingContainer">
+                    <div class="loading-text">Loading
+                        <div class="loading"></div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-text"></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <section class="footer-info">
+                <h3 class="delivery">Delivery</h3>
+                <p>All order will be delivered within 2-6 business days</p>
+            </section>
+            <section>
+                <h3 class="Free-Shipping">Free Shipping</h3>
+                <p>Free standard shipping on orders over 800 NOK</p>
+            </section>
+            <section>
+                <h3 class="Free-Returns">Free Returns</h3>
+                <p>We offer a 80-day free return policy</p>
+            </section> 
+        </footer>
+        <script src="../js/script.js"></script>
+    </body>
+</html>

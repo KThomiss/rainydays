@@ -1,20 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Hotjar Tracking Code for https://www.projectrainydays.com/ -->
-        <script>
-        (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2634064,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
-        <title>Rainy Days - Home page</title>
+        <title>Rainy Days - Specific Jacket</title>
         <meta charset="utf-8">
-        <meta name="description" content="The homepage to my first ever website.">
+        <meta name="description" content="Specific jacket - Green Wave">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/ff4dde0530.js" crossorigin="anonymous"></script>
@@ -39,25 +28,41 @@
             </div>
             <nav class="page-layers">
                 <ul>
-                    <li><a href="listofjacketsAPI/mensjacketsAPI.html" class="mensjackets">Men</a></li>
-                    <li><a href="listofjacketsAPI/womensjacketsAPI.html" class="womensjackets">Women</a></li>
-                    <li><a href="listofjacketsAPI/colddaysAPI.html" class="cold-days">Cold days</a></li>
-                    <li><a href="listofjacketsAPI/rainydaysAPI.html" class="rainy-days">Rainy days</a></li>
-                    <li><a href="listofjacketsAPI/sunnydaysAPI.html" class="sunny-days">Sunny days</a></li>
+                    <li><a href="/listofjacketsAPI/mensjacketsAPI.html" class="mensjackets" id="current">Men</a></li>
+                    <li><a href="/listofjacketsAPI/womensjacketsAPI.html" class="womensjackets">Women</a></li>
+                    <li><a href="/listofjacketsAPI/colddaysAPI.html" class="cold-days">Cold days</a></li>
+                    <li><a href="/listofjacketsAPI/rainydaysAPI.html" class="rainy-days">Rainy days</a></li>
+                    <li><a href="/listofjacketsAPI/sunnydaysAPI.html" class="sunny-days">Sunny days</a></li>
                 </ul>
             </nav>
         </header>
-        <main class="index-main">
-            <div class="homepage-photo"></div>
-            <div class="bestsellers">
-                <h2>Our best selling items</h2>
-                <div class="bestseller-photos">
-                    <a href="specificjacket.html"><img src="images/orange-chocolate.jpg" alt="orange and brown jacket" class="bestsellers-photos"></a>
-                    <a href="specificjacket.html"><img src="images/blue-cherry.jpg" alt="blue and red jacket" class="bestsellers-photos"></a>
-                    <a href="specificjacket.html"><img src="images/green-wave.jpg" alt="turquoise jakcet" class="bestsellers-photos"></a>
-                    <a href="specificjacket.html"><img src="images/pink-cloud.jpg" alt="pink jacket" class="bestsellers-photos"></a>
+        <main class="specific-main">
+            <div class="specificpage-left">
+            </div>
+            <div class="specificJacket-info">
+                <h2>Green Wave</h2>
+                <div class="loadingContainer">
+                    <div class="loading-text">Loading
+                        <div class="loading"></div>
+                    </div>
+                </div>
+                <div class="jacketPrice"></div>
+                <label for="select"><strong>Select size:</strong></label>
+                <select name="select">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">L</option>
+                    <option value="extraLarge">XL</option>
+                </select>
+                <div class="jacketInfo"></div>
+                <div class="align">
+                    <button class="cart">Add to cart</button>
+                    <div class="message">Added to cart</div>
+                    <a href="checkout.html"><button class="checkout">Checkout</button></a>
                 </div>
             </div>
+            <script src="js/message.js"></script>
+            <script src="js/specific.js"></script>
         </main>
         <footer>
             <section class="footer-info">
@@ -73,5 +78,4 @@
                 <p>We offer a 80-day free return policy</p>
             </section> 
         </footer>
-    </body>    
-</html>
+    </body>
