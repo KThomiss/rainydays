@@ -21,12 +21,12 @@ async function getProducts() {
                                                         <img src="${result[i].images[0].src}" class="listOfPictures"></img>
                                                         <div class="grid-text"><strong>${result[i].name}</strong>
                                                         <p>${result[i].prices.price} ${result[i].prices.currency_code}</p>
-                                                        </a>
-                                                        <button class="cart">${result[i].add_to_cart.text}</button>
-                                                        <div class="message">Added to cart</div>
-                                                        </div>
-                                                </div>`;
+                                                </div></a>`;
         }
 
 }
 getProducts();
+
+/*<button class="cart">${result[i].add_to_cart.text}</button>
+<div class="message">Added to cart</div>
+</div>*/
