@@ -17,11 +17,13 @@ async function getProducts() {
                                                         <div class="grid-text"><strong>${result[i].name}</strong>
                                                         <p>${result[i].prices.price} ${result[i].prices.currency_code}</p>
                                                 </div></a>`;
+                
+                imageContainer.innerHTML += `<a href="../specificjacketAPI.html?id=${result[i].id}">
+                                                <div class="grid-child">
+                                                        <img src="${result[i].images[0].src}" class="listOfPictures"></img>
+                                                        <div class="grid-text"><strong>${result[i].name}</strong>
+                                                        <p>${result[i].prices.price} ${result[i].prices.currency_code}</p>
+                                                </div></a>`;
         }
-
 }
 getProducts();
-
-/*<button class="cart">${result[i].add_to_cart.text}</button>
-<div class="message">Added to cart</div>
-</div>*/
