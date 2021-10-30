@@ -2,7 +2,6 @@
 @import url(../styles/imports/fonts.css);
 @import url(../styles/imports/message.css);
 @import url(../styles/imports/forms.css);
-@import url(../styles/imports/sylesAPI.css);
 
 /* Index - Section 1 - Homepage photo */
 
@@ -107,7 +106,7 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border: 5px solid #024059;
+  border: 10px solid #024059;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -135,7 +134,7 @@ a {
 /* Checkout */
 
 .checkout-main {
-  border: 5px solid #024059;
+  border: 10px solid #024059;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

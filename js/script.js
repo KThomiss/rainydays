@@ -7,12 +7,7 @@ async function getProducts() {
         const response = await fetch(arrayUrl);
         const result = await response.json();
 
-        console.log(result);
-
         for(let i = 0; i < result.length; i++) {
-                console.log(result[i].id);
-                console.log(result[i].name);
-                console.log(result[i].images[0].src);
 
                 loadingContainer.innerHTML = ""; 
 
