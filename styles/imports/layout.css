@@ -87,7 +87,7 @@ h1 a {
 
 .page-layers a {
   display: block;
-  min-width: 12vh;
+  min-width: 12vw;
   background-color: #024059;
   color: #ffffff;
   text-decoration: none;
@@ -107,6 +107,14 @@ h1 a {
   left: 0;
   margin-top: 10px;
   margin-left: 10px;
+}
+
+span {
+  color: #d9a74a;
+}
+
+.fa-angle-down {
+  padding: 10px;
 }
 
 .drop-down.active {
@@ -142,7 +150,7 @@ h1 a {
 .submit,
 .account {
   color: #ffffff;
-  width: 50%;
+  width: 25vw;
   min-height: 45px;
   background-color: #024059;
   box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
@@ -154,14 +162,14 @@ h1 a {
 }
 
 .toCheckout {
+  text-align: center;
   display: block;
   min-height: 45px;
-  width: 30vw;
+  width: 25vw;
   color: #ffffff;
   background-color: #024059;
   box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
   text-decoration: none;
-  margin: 0 auto;
   line-height: 50px;
   border-radius: 5px;
   cursor: pointer;
