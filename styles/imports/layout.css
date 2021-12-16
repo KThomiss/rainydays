@@ -70,9 +70,8 @@ h2 {
 }
 
 /* Page layers */
-
 .page-layers {
-  margin-top: 15em;
+  margin-top: 100px;
 }
 
 .page-layers ul {
@@ -102,13 +101,13 @@ h2 {
   display: none;
   border: none;
   background-color: inherit;
-  color: white;
+  color: black;
+  margin: 0 auto;
+}
 
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: 10px;
-  margin-left: 10px;
+.fa-angle-down,
+#arrow-down {
+  font-size: 1rem;
 }
 
 span {
@@ -119,7 +118,11 @@ span {
   padding: 10px;
 }
 
-.drop-down.active {
+.drop-down {
+  display: none;
+}
+
+.active {
   display: block;
 }
 
