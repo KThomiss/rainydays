@@ -20,7 +20,7 @@
 
 .homepage-photo {
   box-sizing: border-box;
-  background-image: url(../images/update/hp-intro.jpg);
+  background-image: url(../images/update/hp-intro1.jpg);
   background-position: top center;
   background-size: cover;
   min-height: 70vh;
@@ -77,8 +77,8 @@
 .bestsellers-photos {
   box-shadow: 8px 5px 12px 0px rgba(59, 59, 59, 0.75);
   border-radius: 5px;
-  width: 10rem;
-  height: 14rem;
+  width: 150px;
+  height: 200px;
   padding: 5px;
 }
 
@@ -425,11 +425,13 @@ a {
   }
 }
 
-@media (max-width: 450px) {
-  .primary-nav li a {
-    font-size: 1rem;
+@media (max-width: 550px) {
+  .primary-nav li {
+    padding: 0 10px;
   }
+}
 
+@media (max-width: 450px) {
   .fa-shopping-cart {
     color: #525252;
     font-size: 1.5rem;
@@ -445,11 +447,6 @@ a {
 
   .contactForm {
     width: 95%;
-  }
-
-  button.cta,
-  .checkoutCta {
-    width: 75px;
   }
 
   .listOfPictures {

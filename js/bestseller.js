@@ -8,8 +8,8 @@ async function getFeaturedProducts() {
 
   for (let i = 0; i < result.length; i++) {
 
-    bestSellers.innerHTML += `<a href="../specificjacketAPI.html?id=${result[i].id}">
-                                <img src="${result[i].images[0].src}" class="bestsellers-photos"></img>
+    bestSellers.innerHTML += `<a href="../specificjacketAPI.html?id=${result[i].id}" aria-label="move to jacket on img">
+                                <img src="${result[i].images[0].src}" class="bestsellers-photos" alt="picture of jacket"></img>
                               </a>`;
   }
 

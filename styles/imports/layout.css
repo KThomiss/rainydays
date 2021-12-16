@@ -48,7 +48,7 @@ h2 {
 
 .primary-nav li {
   list-style: none;
-  padding: 10px;
+  padding: 0 25px;
   margin: 0;
 }
 
@@ -62,7 +62,7 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bolder;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .fa-shopping-cart {

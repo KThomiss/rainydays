@@ -17,7 +17,7 @@ async function getProductId() {
 
     loadingContainer.innerHTML = ""
 
-    pictureContainer.innerHTML = `<img src="${result.images[0].src}" class="specificjacket-picture"></img>`
+    pictureContainer.innerHTML = `<img src="${result.images[0].src}" class="specificjacket-picture" alt="picture of jacket"></img>`
 
     description.innerHTML = `<p><strong>Description</strong></p>
                              <p>${result.description}</p>
