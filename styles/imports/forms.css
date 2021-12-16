@@ -22,6 +22,11 @@ select {
   text-align: center;
 }
 
+.contactForm {
+  width: 60%;
+  margin: 0 auto;
+}
+
 label {
   display: block;
   padding: 10px;

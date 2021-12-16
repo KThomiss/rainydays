@@ -128,7 +128,7 @@
 /* list of jackets */
 
 .grid-area {
-  border: 10px solid #024059;
+  border: 5px solid #024059;
   text-align: center;
 }
 
@@ -171,7 +171,7 @@ a {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  border: 10px solid #024059;
+  border: 5px solid #024059;
   padding-top: 5%;
   padding-bottom: 5%;
   margin: 0 5px;
@@ -251,7 +251,7 @@ a {
 /* About page */
 
 .about-main {
-  border: 10px solid #024059;
+  border: 5px solid #024059;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -280,8 +280,13 @@ a {
 
 /* User page */
 
+.user-main {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .userContainer {
-  border: 10px solid #024059;
+  border: 5px solid #024059;
   padding: 50px;
   margin-top: 10em;
   text-align: center;

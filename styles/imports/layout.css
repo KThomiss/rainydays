@@ -135,12 +135,16 @@ span {
   border-bottom: 2px solid var(--currentPage);
 }
 
+.current-header {
+  color: var(--cta);
+}
+
 #cold-days,
 #mensjackets,
 #rainy-days,
 #sunny-days,
 #womensjackets {
-  border: 10px solid #d9a74a;
+  border: 5px solid #d9a74a;
 }
 
 .page-layers a:hover {
