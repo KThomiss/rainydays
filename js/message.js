@@ -1,4 +1,4 @@
-const addToCart = document.querySelector(".cart");
+const addToCart = document.querySelector(".cta");
 const message = document.querySelector(".message");
 
 addToCart.onclick = function() {

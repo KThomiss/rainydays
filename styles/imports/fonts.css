@@ -1,20 +1,20 @@
-@font-face {
-  font-family: "Russo One", sans-serif, "montserrat";
-  src: url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap");
+body {
+  font-family: "Didact Gothic", sans-serif;
 }
 
 h1,
 h2,
-h3 {
-  font-family: "Russo One", "open sans", "sans-serif";
+h3,
+h4 {
+  font-family: "Russo One", sans-serif;
 }
 
-.grid-area h2 {
+/*.grid-area h2 {
   font-size: 5vw;
   color: rgba(2, 64, 89, 0.808);
-}
+}*/
 
-p,
+/*p,
 ul,
 label,
 select,
@@ -31,4 +31,4 @@ strong {
 .toCheckout {
   font-family: "montserrat", "open sans", "sans-serif";
   font-size: 1em;
-}
+}*/

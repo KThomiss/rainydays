@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="description" content="List of jackets for cold days">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Russo+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Russo+One&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/ff4dde0530.js" crossorigin="anonymous"></script>
         <link href="../styles/styles.css" rel="stylesheet">
     </head>
@@ -13,19 +13,21 @@
         <header>
             <nav class="primary-nav">
                 <ul>
-                    <li><a href="/checkout.html"><i class="fas fa-shopping-cart fa-2x"></i>Checkout</a></li>
-                    <li><a href="/user.html"><i class="fas fa-user fa-2x"></i>Login</a></li>
-                    <li><a href="/contact.html"><i class="fas fa-phone fa-2x"></i>Contact</a></li>
-                    <li><a href="/about.html"><i class="fas fa-users fa-2x"></i>About</a></li>
+                    <div class="header-left">
+                        <a href="../index.html"><img src="../images/LogoUpdate.png" class="logo-img" alt="Logo - Rainy days, teardrop with a mountain inside"></a>
+                    </div>
+                    <div class="header-center">
+                        <li><a href="../user.html">Login</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                        <li><a href="../about.html">About</a></li>
+                    </div>
+                    <div class="header-right">
+                        <a href="../checkout.html"><i class="fas fa-shopping-cart fa-2x"></i></a>
+                    </div>
                 </ul>   
             </nav>
-            <div class="logo">
-                <div>
-                    <a href="/index.html"><img src="../images/logo.png" alt="logo of projectrainydays.com" class="logo-img"></a>
-                    <h1><a href="/index.html">Rainy Days</a></h1>
-                    <p class ="slogan">Pushing the comfort zone</p>
-                </div>
-            </div>
+        </header>
+        <main>
             <nav class="page-layers">
                 <button id="arrow-down"><i class="fas fa-angle-down"></i><span>Women</span></button>
                 <ul class="drop-down">
@@ -36,8 +38,6 @@
                     <li><a href="sunnydaysAPI.html" class="sunny-days">Sunny days</a></li>
                 </ul>
             </nav>
-        </header>
-        <main>
             <div class="grid-area" id="mensjackets">
                 <h2>Jackets for Women</h2>
                 <div class="loadingContainer">

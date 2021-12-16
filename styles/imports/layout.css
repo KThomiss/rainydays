@@ -1,59 +1,49 @@
 body {
   margin: 0;
-  background: linear-gradient(180deg, #cbd5bc, #d9a74a);
+  background: var(--lightGrayColor);
 }
 
 main {
   background-color: #ffffff;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-h1,
-h2,
-h3 {
-  color: #024059;
+  margin: 0 100px 0 100px;
 }
 
 /* Header - logo */
 
 .logo-img {
-  float: left;
-  padding: 5px;
-}
-
-.logo {
-  display: flex;
-  margin-left: 100px;
-  margin-top: 20px;
-}
-
-.slogan {
-  color: #024059;
-  margin-top: 0;
+  width: 40px;
+  padding: 10px 10px 0 10px;
 }
 
 h1 {
+  color: #024059;
   font-size: 40px;
   margin-bottom: 0;
 }
 
-h1 a {
+h2 {
   color: #024059;
-  text-decoration: none;
+  font-size: 40px;
 }
 
 /* Primary navigation with icons */
 
 .primary-nav {
-  color: white;
-  background-color: rgb(2, 64, 89);
+  color: black;
+  background-color: var(--grayColor);
+  padding: 10px;
 }
 
 .primary-nav ul {
   margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-center {
+  display: flex;
 }
 
 .primary-nav li {
@@ -62,23 +52,34 @@ h1 a {
   margin: 0;
 }
 
-.primary-nav li:hover {
-  background-color: #d9a74a;
-  color: black;
+.primary-nav a:hover,
+.fa-shopping-cart:hover {
+  color: white;
 }
 
 .primary-nav a {
   color: inherit;
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.fa-shopping-cart {
+  color: #525252;
 }
 
 /* Page layers */
 
+.page-layers {
+  margin-top: 15em;
+}
+
 .page-layers ul {
   text-align: center;
-  max-height: 15px;
+  margin-bottom: 0;
   padding: 0;
-  background-color: none;
+  background-color: var(--lightGrayColor);
 }
 
 .page-layers li {
@@ -94,6 +95,7 @@ h1 a {
   padding: 5px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  font-size: 1.2rem;
 }
 
 #arrow-down {
@@ -126,6 +128,10 @@ span {
   color: black;
 }
 
+#current-header {
+  border-bottom: 2px solid var(--currentPage);
+}
+
 #cold-days,
 #mensjackets,
 #rainy-days,
@@ -145,48 +151,26 @@ span {
 
 /* buttons and CTA */
 
-.cart,
-.checkout,
-.submit,
-.account {
-  color: #ffffff;
-  width: 25vw;
-  min-height: 45px;
-  background-color: #024059;
-  box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
+.cta {
+  cursor: pointer;
+  background: var(--ctaLinearGradient);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-.toCheckout {
+  display: inline-block;
+  width: 75px;
   text-align: center;
-  display: block;
-  min-height: 45px;
-  width: 25vw;
-  color: #ffffff;
-  background-color: #024059;
-  box-shadow: 6px 6px rgba(2, 64, 89, 0.5);
-  text-decoration: none;
-  line-height: 50px;
-  border-radius: 5px;
-  cursor: pointer;
+  margin: 20px 5px 0 5px;
 }
 
-.cart {
-  margin-bottom: 10px;
+button.cta,
+.checkoutCta {
+  width: 150px;
 }
 
-.cart:hover,
-.checkout:hover,
-.submit:hover,
-.toCheckout:hover,
-.account:hover {
-  background-color: #d9a74a;
-  color: black;
-  box-shadow: 6px 6px rgba(217, 167, 74, 0.5);
+.cta:hover {
+  background: var(--ctaHover);
 }
 
 /* Footer */

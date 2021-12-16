@@ -7,9 +7,6 @@ async function getFeaturedProducts() {
   const result = await response.json();
 
   for (let i = 0; i < result.length; i++) {
-    console.log(result[i]);
-    console.log(result[i].id);
-    console.log(result[i].images[0].src);
 
     bestSellers.innerHTML += `<a href="../specificjacketAPI.html?id=${result[i].id}">
                                 <img src="${result[i].images[0].src}" class="bestsellers-photos"></img>

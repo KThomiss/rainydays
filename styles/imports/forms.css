@@ -1,3 +1,15 @@
+.contact-main {
+  border: 10px solid #024059;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.contact-info {
+  margin: 0 auto;
+}
+
 select {
   width: 10em;
   padding: 10px;
@@ -6,9 +18,8 @@ select {
   background-color: rgba(2, 64, 89, 0.1);
 }
 
-.contactForm {
-  margin: 0 auto;
-  width: 50%;
+#contactForm {
+  text-align: center;
 }
 
 label {
